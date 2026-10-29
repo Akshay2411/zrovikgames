@@ -1,0 +1,87 @@
+// Center content horizontally and vertically
+@mixin display-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@mixin display-grid {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+//container common style
+@mixin container {
+  max-width:1420px;
+  width: 100%;
+  padding: 0px 30px;
+  margin: $margin;
+}
+
+
+//mediaQuery for 1280px
+@mixin mediaQuery($size_1280) {
+  @media screen and (max-width: $size_1280) {
+    @content;
+  }
+}
+//mediaQuery for 1140px
+@mixin mediaQuery($size_1140) {
+  @media screen and (max-width: $size_1140) {
+    @content;
+  }
+}
+//mediaQuery for 1023px
+@mixin mediaQuery($size_1023) {
+  @media screen and (max-width: $size_1023) {
+    @content;
+  }
+}
+//mediaQuery for 991px
+@mixin mediaQuery($size_991) {
+  @media screen and (max-width: $size_991) {
+    @content;
+  }
+}
+//mediaQuery for 820px
+@mixin mediaQuery($size_820) {
+  @media screen and (max-width: $size_820) {
+    @content;
+  }
+}
+//mediaQuery for 767px
+@mixin mediaQuery($size_767) {
+  @media screen and (max-width: $size_767) {
+    @content;
+  }
+}
+//mediaQuery for 639px
+@mixin mediaQuery($size_639) {
+  @media screen and (max-width: $size_639) {
+    @content;
+  }
+}
+//mediaQuery for 575px
+@mixin mediaQuery($size_575) {
+  @media screen and (max-width: $size_575) {
+    @content;
+  }
+}
+//mediaQuery for 480px
+@mixin mediaQuery($size_480) {
+  @media screen and (max-width: $size_480) {
+    @content;
+  }
+}
+//mediaQuery for 375px
+@mixin mediaQuery($size_375) {
+  @media screen and (max-width: $size_375) {
+    @content;
+  }
+}
+//mediaQuery for 320px
+@mixin mediaQuery($size_320) {
+  @media screen and (max-width: $size_320) {
+    @content;
+  }
+}
